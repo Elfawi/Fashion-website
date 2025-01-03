@@ -1,0 +1,212 @@
+@media only screen and (min-width: 100em) {
+    html{
+        font-size: 75%;
+    }
+    }
+@media only screen and (max-width: 75em) {
+html{
+    font-size: 50%;
+}
+}
+@media only screen and (max-width: 56.25em) {
+
+    /* Responsive navigation */
+   .nav__list{
+    display: none;
+   }
+   .phone-menu{
+     display: block;
+     visibility: visible;
+     cursor: pointer;
+   
+   }
+   .nav__list--responsive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    align-items: center;
+transition: all 0.3s;
+opacity: 1;
+}
+    /* End of responsive navigation */
+
+/* Hero section */
+.hero{
+    flex-direction: column;
+    gap: 5rem;
+}
+.hero-text{
+    width: 100%;
+}
+.text-box{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-text-sub{
+    width: 100%;
+}
+.img-box{
+    width: 100%;
+}
+.hero-img{
+    width: 80%;
+}
+.btn{
+    align-self: center;
+}
+.exclusive-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.exclusive-img{
+    width: 90%;
+}
+.exclusive-text {
+    text-align: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    margin: 0
+}
+/* End of Hero section */
+    /* cards */
+    .card-4{
+        width: 100%;
+      }
+    .card-3{
+      width: 45%;
+    }
+    .feedback-box{
+        width: 100%;
+    }
+    /* End of cards */
+
+    /* Footer */
+    .logo{
+        font-size: 3rem;
+    }
+    .footer{
+        grid-template-columns: 10rem 1fr;
+        grid-template-rows: auto auto auto;
+        align-items: center; 
+         justify-items: center;
+    }
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(2, minmax(20rem, 1fr));
+
+    }
+    .logo-white{
+        align-self: stretch;
+    }
+    .barnd-column{
+        display: flex;
+        gap: 4rem;
+        align-self: flex-start;
+
+    }
+    .main__links{
+        gap: 6rem;
+        margin-left: auto;
+
+    }
+    .shop{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem
+    }
+    .company{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem
+    }
+    .action {
+        grid-column: 1 /-1;
+        grid-row: 2;
+        /* margin-left: 4rem; */
+      }
+    .website-terms {
+        grid-row: 4;
+        grid-column: 1/-1;
+        justify-content: center;
+      }
+      .footer::before {
+        grid-column: 1/-1;
+        grid-row: 3;
+      }
+}
+    @media only screen and (max-width: 37.5em) {
+        .card-3{
+            width: 100%;
+        }
+        .exclusive-section{
+            margin: 2rem 2.4rem;
+        }
+        .exclusive-heading{
+            font-size: 2.8rem;
+        }
+        .box {
+            width: 8rem;
+            height: 8rem;
+            font-size: 2.8rem;
+        }
+        .brand-column{
+            grid-column: 1/-1;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo-white{
+            align-self: center;
+        }
+        .action {
+            grid-column: 1/-1;
+            grid-row: 3;
+            margin-left: 0;
+        }
+        .form__btn{
+            padding: 1rem 2rem;
+        }
+        .main__links{
+            grid-column: 1/-1;
+            grid-row: 2;
+            margin-left: 0;
+            gap: 4rem;
+        }
+        .form{
+            width: 100%;
+        }
+        .form__input {
+            width: 100%;
+        }
+        .footer::before {
+            grid-row: 4;
+        }
+        .website-terms {
+            grid-row: 5;
+            
+        }
+    }
