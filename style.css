@@ -88,7 +88,7 @@ NAV BAR
   /* justify-content: space-between; */
   padding: 2rem 0;
   position: sticky;
-  z-index: 1111;
+  z-index: 9999;
   top: 0;
   /* background-color: #fff; */
   background-color: var(--color-primary-light);
@@ -214,6 +214,7 @@ align-self: flex-start;
 .btn--primary {
   border: 2px solid var(--color-primary);
   color: var(--color-primary);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 .btn--primary:hover {
   background-color: var(--color-primary);
@@ -267,17 +268,12 @@ align-self: flex-start;
 .overlay > button {
   align-self: center;
 }
-/* .card-4:hover > .card-4-img {
-  transform: scale(1.1);
-}
-.card-4:hover > .details {
-  transform: translateY(-5rem);
-} */
 .card-4-img {
   width: 100%;
   /* transition: all 0.3s; */
 }
 .details {
+  position: relative;
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -289,6 +285,7 @@ align-self: flex-start;
   transition: all 0.3s;
   overflow: hidden;
   width: 100%;
+  z-index: 1111;
 }
 .product-name {
   grid-column: span 2;
@@ -482,6 +479,12 @@ align-self: flex-start;
   color: var(--color-primary-light);
   text-decoration: none;
   font-size: 1.6rem;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.footer__link:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 .main__links {
   display: flex;
