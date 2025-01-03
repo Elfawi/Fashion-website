@@ -200,6 +200,9 @@ padding: 3rem 2.4rem;
             align-items: center;
             justify-content: center;
         }
+                .card-3{
+      width: 100%;
+    }
         .logo-white{
             align-self: center;
         }
