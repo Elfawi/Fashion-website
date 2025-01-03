@@ -1,4 +1,4 @@
-@media only screen and (min-width: 100em) {
+z@media only screen and (min-width: 100em) {
     html{
         font-size: 75%;
     }
@@ -158,6 +158,27 @@ opacity: 1;
       }
 }
     @media only screen and (max-width: 37.5em) {
+        .header {
+  padding: 0 2.4rem;
+}
+        .our-products {
+    padding: 3rem 2.4rem;
+}
+        .Best-selling-section {
+  padding: 3rem 2.4rem;
+}
+        .exclusive-section {
+  margin: 4rem 2.4rem;
+}
+        .section-designer-clothes {
+  padding: 4rem 2.4rem;
+}
+        .section-feedback {
+  padding: 4rem 2.4rem;
+  /* text-align: left; */
+}
+        .footer{
+padding: 3rem 2.4rem;
         .card-3{
             width: 100%;
         }
