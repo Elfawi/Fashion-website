@@ -160,7 +160,7 @@ NAV BAR END
 }
 .hero {
   display: flex;
-  padding: 10rem 0;
+  padding: 5rem 0;
   align-items: center;
   justify-content: center;
 }
@@ -181,15 +181,19 @@ NAV BAR END
   line-height: 1.8;
   width: 70%;
 }
-.text-box {
-align-self: flex-start;
-}
 .img-box {
   background-color: rgb(93, 180, 128);
   border-radius: 25rem 3rem 25rem 10rem;
   display: flex;
   justify-content: center;
   width: 70%;
+  overflow: hidden;
+  position: relative;
+}
+.hero-dots {
+  width: 90%;
+  position: absolute;
+  top: 10rem;
 }
 .hero-img {
   display: block;
@@ -479,8 +483,8 @@ align-self: flex-start;
   color: var(--color-primary-light);
   text-decoration: none;
   font-size: 1.6rem;
-  display: inline-block;
   transition: all 0.3s;
+  display: inline-block;
 }
 .footer__link:hover {
   text-decoration: underline;
