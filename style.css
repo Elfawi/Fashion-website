@@ -467,6 +467,18 @@ NAV BAR END
 .logo-white {
   color: #fff;
 }
+.brand-column {
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: center;
+}
+.social-media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .social-media-heading {
   font-size: 1.6rem;
 }
