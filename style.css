@@ -129,7 +129,7 @@ NAV BAR
   display: block;
   z-index: 11;
 }
-.active-dot{
+.active-dot {
   width: 3rem;
   height: 3rem;
   position: absolute;
@@ -142,12 +142,11 @@ NAV BAR
   align-items: center;
   gap: 3rem;
 }
-.phone-menu{
- font-size: 3rem;
- margin-left: auto;
+.phone-menu {
+  font-size: 3rem;
+  margin-left: auto;
   display: none;
   visibility: hidden;
-
 }
 /*
 NAV BAR END
@@ -392,7 +391,7 @@ NAV BAR END
 /*section-designer-clothes end*/
 /* Feedback section */
 .section-feedback {
-  padding: 5rem 6.4rem;
+  padding: 3rem 6.4rem;
   /* text-align: left; */
 }
 .quote {
@@ -406,8 +405,26 @@ NAV BAR END
 .user-desc {
   font-size: 1.6rem;
 }
+.slider{
+  max-width: 120rem;
+  height: 30rem;
+  margin: 0 auto;
+  position: relative;
+  /* IN THE END */
+  overflow: hidden;
+  justify-content:start;
+}
+.slide {
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30rem;
+  /* THIS creates the animation! */
+  transition: transform 1s;
+}
 .feedback-box {
-  width: 31%;
+  width: 33%;
   padding: 1rem 2rem;
 }
 .feedback-box--active {
@@ -417,6 +434,7 @@ NAV BAR END
   display: flex;
   justify-content: center;
   gap: 3rem;
+  padding-top: 3rem;
 }
 .feedback-button {
   display: block;
@@ -548,7 +566,6 @@ NAV BAR END
 .form__btn:hover {
   background-color: var(--color-primary-dark);
   color: #fff;
-
 }
 .website-terms {
   grid-row: 2;
