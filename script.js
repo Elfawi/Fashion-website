@@ -109,7 +109,7 @@ const slider = function (time = null) {
         activeSlide = +document.querySelector(".feedback-box--active").dataset.index;  
         buttonsActive();
         if(window.innerWidth < 900){
-          Array.from(document.querySelectorAll('.feedback-box')).forEach(el => el.classList.add('feedback-box--active'))
+          Array.from(document.querySelectorAll('.feedback-box')).forEach(el => el.classList.remove('feedback-box--active'))
         }
       }
     }
@@ -133,7 +133,7 @@ const slider = function (time = null) {
 
         buttonsActive();
         if(window.innerWidth < 900){
-          Array.from(document.querySelectorAll('.feedback-box')).forEach(el => el.classList.add('feedback-box--active'))
+          Array.from(document.querySelectorAll('.feedback-box')).forEach(el => el.classList.remove('feedback-box--active'))
         }
       }
     }

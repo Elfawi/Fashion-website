@@ -24,6 +24,9 @@
   .footer__heading {
     font-size: 2.4rem;
   }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
   .social-media-heading{
     font-size: 2.4rem;
   }
@@ -63,6 +66,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   .hero-text-sub {
     width: 100%;
@@ -116,9 +120,8 @@
     font-size: 3.4rem;
   }
   .footer {
-    grid-template-columns: 10rem 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
-    align-items: center;
     justify-items: center;
   }
   .footer__list {
@@ -131,14 +134,13 @@
   .logo-white {
     align-self: stretch;
   }
-  .barnd-column {
+  .brand-column {
     display: flex;
     gap: 4rem;
     align-self: flex-start;
   }
   .main__links {
     gap: 6rem;
-    margin-left: auto;
   }
   .shop {
     align-items: center;
@@ -192,11 +194,17 @@
   .footer {
     padding: 3rem 2.4rem;
   }
+  .heading-primary {
+    font-size: 3.8rem;
+  }
+  .heading-tertiary {
+    font-size: 2rem;
+  }
   .exclusive-section {
     margin: 2rem 2.4rem;
   }
   .exclusive-heading {
-    font-size: 2.8rem;
+    font-size: 3rem;
   }
   .box {
     width: 8rem;
