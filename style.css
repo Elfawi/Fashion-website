@@ -86,7 +86,7 @@ NAV BAR
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   position: sticky;
   z-index: 9999;
   top: 0;
@@ -405,14 +405,14 @@ NAV BAR END
 .user-desc {
   font-size: 1.6rem;
 }
-.slider{
+.slider {
   max-width: 120rem;
   height: 30rem;
   margin: 0 auto;
   position: relative;
   /* IN THE END */
   overflow: hidden;
-  justify-content:start;
+  justify-content: start;
 }
 .slide {
   border-radius: 3px;
@@ -470,10 +470,10 @@ NAV BAR END
 .brand-column {
   display: flex;
   flex-direction: column;
-  align-items:center ;
+  align-items: center;
   justify-content: center;
 }
-.social-media{
+.social-media {
   display: flex;
   flex-direction: column;
   align-items: center;
