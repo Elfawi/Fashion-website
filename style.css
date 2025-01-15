@@ -426,6 +426,7 @@ NAV BAR END
 .feedback-box {
   width: 33%;
   padding: 1rem 2rem;
+  transition: all 1s;
 }
 .feedback-box--active {
   background-color: var(--color-primary-light);
